@@ -1,2 +1,2 @@
 # Web-Dev-Bootcamp
-Some of the projects created as a beginner.
+Collection of some of the projects created as a beginner.
