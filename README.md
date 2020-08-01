@@ -1,2 +1,2 @@
 # Web-Dev-Bootcamp
-Collection of some of the projects created as a beginner.
+Collection of the projects created under Colt Steele's Web Development Bootcamp.
