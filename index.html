@@ -7,7 +7,18 @@
     <title>Web-Dev-Bootcamp</title>
     <style>
         h1 {
+            text-align: center;;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            border-bottom: 1px solid black;
+            padding-bottom: 10px;
+        }
+        div {
+            font-size: 2rem;
+            padding-top: 10px;
             text-align: center;
+        }
+        a {
+            text-decoration: none;
         }
     </style>
 </head>
@@ -26,7 +37,7 @@
         }
         Object.keys(projects).forEach((project) => {
             let newElement = document.createElement("div");
-            newElement.innerHTML = `<a href=${projects[project]}><h1>${project}</h1>`
+            newElement.innerHTML = `<a href="${projects[project]}">${project}</a>`;
             document.getElementById("projects").appendChild(newElement);
         });
     </script>
